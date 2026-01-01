@@ -1,0 +1,8 @@
+init git
+
+
+깃허브 연결
+
+git remote add tutorial https://github.com/Mastercheifs/machine_vision.git
+
+깃허브 
