@@ -5,4 +5,33 @@ init git
 
 git remote add tutorial https://github.com/Mastercheifs/machine_vision.git
 
-깃허브 
+깃허브 업로드
+git push tutorial main
+Kyu@DESKTOP-GHT40MI MINGW64 /c/Coding (main)
+$ git add README.md
+
+Kyu@DESKTOP-GHT40MI MINGW64 /c/Coding (main)
+$ git commit -m "first commit"
+[main 7e2e9d9] first commit
+ 1 file changed, 8 insertions(+)
+ create mode 100644 github_install.txt
+
+Kyu@DESKTOP-GHT40MI MINGW64 /c/Coding (main)
+$ git branch -M main
+
+Kyu@DESKTOP-GHT40MI MINGW64 /c/Coding (main)
+$
+git remote add origin https://github.com/Mastercheifs/code.git
+
+Kyu@DESKTOP-GHT40MI MINGW64 /c/Coding (main)
+$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.24 KiB | 634.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mastercheifs/code.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
