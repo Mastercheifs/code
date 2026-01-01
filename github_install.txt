@@ -6,15 +6,14 @@ init git
 git remote add tutorial https://github.com/Mastercheifs/machine_vision.git
 
 깃허브 업로드
-git push tutorial main
-Kyu@DESKTOP-GHT40MI MINGW64 /c/Coding (main)
-$ git add README.md
 
-Kyu@DESKTOP-GHT40MI MINGW64 /c/Coding (main)
-$ git commit -m "first commit"
-$ git branch -M main
+git add . 
 
-git remote add origin https://github.com/Mastercheifs/code.git
+git commit -m "first commit"
+
+git push
+
+
 
 
 
